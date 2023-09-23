@@ -16,7 +16,7 @@ move_forward()
 while not condition:
     if is_path_left():
         turn_left()
-move_forward()
+    move_forward()
 
 
 
