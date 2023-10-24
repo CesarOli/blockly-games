@@ -9,14 +9,14 @@ def move(length, direction='forward'):
 def turn(angle, side):
     print(f'turn {angle} to the {side}')
 
-def select_direction(direction):
-    print(f'To the {direction}')
+def pencil(position):
+    print('Now the pencil is {position}.')
 
 pencil_color('yellow')
 for count in range(0, 4):
     move(50)
     turn(144, 'right')
-select_direction('up')
+pencil('up')
 move(150)
-select_direction('down')
+pencil('down')
 move(20)
